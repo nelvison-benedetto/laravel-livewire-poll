@@ -34,6 +34,9 @@
 
 <body class="container mx-auto mt-10 mb-10 max-w-lg">
     @livewireScripts
+    {{-- @livewire('livewire-ui-modal') --}}
+    {{-- @livewire('create-poll')   --}}
+    <livewire:create-poll />
 </body>
 
 </html>
